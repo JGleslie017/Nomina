@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Mi_proyecto_Final_Programacion</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="user-and-padlock-cybersecurity-free-vector.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="user-and-padlock-cybersecurity-free-vector.jpg" />
+  </ItemGroup>
+
+</Project>
